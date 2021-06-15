@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,20 @@
     <title>HangMan Game</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div id="pngDiv" class="MainDiv"><img src="hangman-1" class="mainPicture"></div>
+    <div id="parentDiv">
+    <div id="pngDiv" class="MainDiv"><img src="hangman-1" class="mainPicture" alt="hang-man gif"></div>
     <div id="wordPuzzle" class="MainDiv">
         <div id="word">
-            <div id="l1"></div>
-            <div id="l2"></div>
-            <div id="l3"></div>
-            <div id="l4"></div>
-            <div id="l5"></div>
-            <div id="l6"></div>
-            <div id="l7"></div>
-            <div id="l8"></div>
+            <div id="l0" class="unKnown">_</div>
+            <div id="l1" class="unKnown">_</div>
+            <div id="l2" class="unKnown">_</div>
+            <div id="l3" class="unKnown">_</div>
+            <div id="l4" class="unKnown">_</div>
+            <div id="l5" class="unKnown">_</div>
+            <div id="l6" class="unKnown">_</div>
+            <div id="l7" class="unKnown">_</div>
         </div>
         <div id="letters">
             <div class="let" id="la">A</div>
@@ -47,13 +50,12 @@
             <div class="let" id="lx">X</div>
             <div class="let" id="ly">Y</div>
             <div class="let" id="lz">Z</div>
-
-            
         </div>
     </div>
-
+</div>
 
 
     <script src="script.js"></script>
 </body>
+
 </html>
