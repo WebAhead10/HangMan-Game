@@ -8,12 +8,12 @@ body{
     background-image: url("https://html.sammy-codes.com/images/background.jpg");
     font-family:var(--mainFont);
 }
-h2{
+h1{
     text-align: center;
 }
 #mainPicture{
-    height: auto;
-    width: auto;
+    height: 100%;
+    width: 100%;
 }
 #parentDiv {
     display: flex;
@@ -89,4 +89,14 @@ h2{
 
 .Known{
 
+}
+#newGame{
+    border: 1px solid rgba(129, 112, 33, 0.932);
+    background-color: rosybrown;
+    border-radius: 5px; 
+    text-align :center;
+    justify-content: center;
+    padding: 1%;
+    float: right;
+    margin-right: 4%;
 }
