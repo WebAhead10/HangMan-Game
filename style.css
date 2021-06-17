@@ -8,7 +8,7 @@ body{
     background-image: url("https://html.sammy-codes.com/images/background.jpg");
     font-family:var(--mainFont);
 }
-h1{
+h1, p{
     text-align: center;
 }
 #mainPicture{
