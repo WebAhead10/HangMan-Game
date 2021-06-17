@@ -11,6 +11,9 @@ body{
 h1, p{
     text-align: center;
 }
+span {
+    font-weight: bolder;
+}
 #mainPicture{
     height: 100%;
     width: 100%;
@@ -80,15 +83,16 @@ h1, p{
     justify-content: space-evenly;
     align-items: center;
 }
-#word .unKnown{
+#word > .unKnown{
     padding: 2%;
     border: 1px solid black;
     border-radius: 4px;
     background-color: lightsteelblue;
+    justify-content: center;
 }
 
 .Known{
-
+    padding:auto;
 }
 #newGame{
     border: 1px solid rgba(129, 112, 33, 0.932);

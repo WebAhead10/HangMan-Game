@@ -11,51 +11,17 @@
 
 <body>
     <h1>The Hangman Game</h1>
-    <p> Thinks of a word of 8 letters and try to guess it by suggesting letters within a 7 number of guesses. </p>
+    <p> Thinks of a word of <span id=number></span> letters and try to guess it by suggesting letters <br><span>You have <span id="opp"></span> lives left! </span> </p>
     <input type="button" name="new-game" id="newGame" value="New Game" onClick="window.location.reload()">
     <div id="parentDiv">
-    <div id="pngDiv" class="MainDiv"><img src="https://www.gamehangman.com/sites/all/modules/hangman/images/Hangman-1.png" id="mainPicture" alt="hang-man gif"></div>
-    <div id="wordPuzzle" class="MainDiv">
-        <div id="word">
-            <div id="l0" class="unKnown">_</div>
-            <div id="l1" class="unKnown">_</div> 
-            <div id="l2" class="unKnown">_</div>
-            <div id="l3" class="unKnown">_</div>
-            <div id="l4" class="unKnown">_</div>
-            <div id="l5" class="unKnown">_</div>
-            <div id="l6" class="unKnown">_</div>
-            <div id="l7" class="unKnown">_</div>
-        </div>
-        <div id="letters">
-            <div class="let" id="la">A</div>
-            <div class="let" id="lb">B</div>
-            <div class="let" id="lc">C</div>
-            <div class="let" id="ld">D</div>
-            <div class="let" id="le">E</div>
-            <div class="let" id="lf">F</div>
-            <div class="let" id="lg">G</div>
-            <div class="let" id="lh">H</div>
-            <div class="let" id="li">I</div>
-            <div class="let" id="lj">J</div>
-            <div class="let" id="lk">K</div>
-            <div class="let" id="ll">L</div>
-            <div class="let" id="lm">M</div>
-            <div class="let" id="ln">N</div>
-            <div class="let" id="lo">O</div>
-            <div class="let" id="lp">P</div>
-            <div class="let" id="lq">Q</div>
-            <div class="let" id="lr">R</div>
-            <div class="let" id="ls">S</div>
-            <div class="let" id="lt">T</div>
-            <div class="let" id="lu">U</div>
-            <div class="let" id="lv">V</div>
-            <div class="let" id="lw">W</div>
-            <div class="let" id="lx">X</div>
-            <div class="let" id="ly">Y</div>
-            <div class="let" id="lz">Z</div>
+        <div id="pngDiv" class="MainDiv"><img
+                src="https://www.gamehangman.com/sites/all/modules/hangman/images/Hangman-1.png" id="mainPicture"
+                alt="hang-man gif"></div>
+        <div id="wordPuzzle" class="MainDiv">
+            <div id="word"></div>
+            <div id="letters"></div>
         </div>
     </div>
-</div>
 
 
     <script src="script.js"></script>
