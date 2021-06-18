@@ -23,21 +23,23 @@ span {
     flex-direction: row;
     justify-content: space-evenly ; 
     align-items: center;
-    margin-left: 30%;
-    margin-top: 5%;
+    margin-left: 40%;
 }
 .MainDiv{
-    width: 70vw;
-    height: 50vh;
+    width: 65vw;
+    height: 60vh;
     background-color: rgba(161, 105, 1, 0.404);
     border:2px solid rgba(117, 71, 3, 0.089);
     border-radius: 7px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin:5%;
+    justify-content:flex-start  ;
+    margin-left: 4%;
 }
+/* #wordPuzzle{
+ 
+} */
 #letters .let{
     width: 2vw;
     height: 4vh;
@@ -103,4 +105,18 @@ span {
     padding: 1%;
     float: right;
     margin-right: 4%;
+}
+.hintButton {
+    width: 2vw;
+    height: 4vh;
+    border: 1px solid rgba(6, 74, 83, 0.932);
+    background-color: rgb(6, 153, 197);
+    border-radius: 25px; 
+    text-align :center;
+    justify-content: center;
+    padding: 2%;
+    margin-bottom: 5px;
+}
+#hintText{
+   height: fit-content;
 }

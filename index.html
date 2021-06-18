@@ -11,8 +11,9 @@
 
 <body>
     <h1>The Hangman Game</h1>
-    <p> Thinks of a word of <span id=number></span> letters and try to guess it by suggesting letters <br><span>You have <span id="opp"></span> lives left! </span> </p>
-    <input type="button" name="new-game" id="newGame" value="New Game" onClick="window.location.reload()">
+    <p> Thinks of a word of <span id=number></span> letters and try to guess it by suggesting letters <br><span>You have
+            <span id="opp"></span> lives left! </span> </p>
+    <!-- <input type="button" name="new-game" id="newGame" value="New Game" onClick="window.location.reload()"> -->
     <div id="parentDiv">
         <div id="pngDiv" class="MainDiv"><img
                 src="https://www.gamehangman.com/sites/all/modules/hangman/images/Hangman-1.png" id="mainPicture"
@@ -20,6 +21,7 @@
         <div id="wordPuzzle" class="MainDiv">
             <div id="word"></div>
             <div id="letters"></div>
+            <div id="hintText"></div>
         </div>
     </div>
 
